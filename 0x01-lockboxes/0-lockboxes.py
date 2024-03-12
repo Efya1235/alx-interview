@@ -18,7 +18,7 @@ def canUnlockAll(boxes):
 
     return len(visited) == num_boxes
 
-# Example usage
+
 if __name__ == "__main__":
     boxes = [[1], [2], [3], [4], []]
     print(canUnlockAll(boxes))  # Output: True
